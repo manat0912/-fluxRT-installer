@@ -83,7 +83,11 @@ module.exports = {
           text: "<div><strong>Reset</strong><div>Revert to pre-install state</div></div>",
           href: "reset.js",
           confirm: "Are you sure you wish to reset the app?"
-
+        }, {
+          icon: "fa-solid fa-broom",
+          text: "<div><strong>Reset Environment</strong><div>Delete the Python environment and start fresh</div></div>",
+          href: "reset_env.js",
+          confirm: "Are you sure you wish to reset the Python environment?"
         }]
       }
     } else {

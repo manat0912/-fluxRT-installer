@@ -1,2 +1,8 @@
 node_modules
 .DS_Store
+app/
+cache/
+logs/
+env/
+venv/
+log/
