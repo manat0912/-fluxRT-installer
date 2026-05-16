@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/tensorforger/FluxRT.git app",
+          "git clone https://github.com/manat0912/FluxRT.git app",
         ]
       }
     },
@@ -67,7 +67,7 @@ module.exports = {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "KwaiVGI/LivePortrait" ],
+        "_": ["KwaiVGI/LivePortrait"],
         "local-dir": "models",
         "token": "False"
       }
@@ -111,8 +111,8 @@ module.exports = {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "leejet/FLUX.2-klein-4B-GGUF" ],
-        "include": [ "{{input.file}}" ],
+        "_": ["leejet/FLUX.2-klein-4B-GGUF"],
+        "include": ["{{input.file}}"],
         "local-dir": "models/gguf",
         "token": "False"
       }
@@ -122,7 +122,7 @@ module.exports = {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "TensorForger/RIFE-safetensors" ],
+        "_": ["TensorForger/RIFE-safetensors"],
         "local-dir": "RIFE-safetensors",
         "token": "False"
       }
@@ -132,7 +132,7 @@ module.exports = {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "black-forest-labs/FLUX.2-klein-4B" ],
+        "_": ["black-forest-labs/FLUX.2-klein-4B"],
         "local-dir": "FLUX.2-klein-4B",
         "token": "False"
       }
@@ -143,7 +143,7 @@ module.exports = {
       method: "hf.download",
       params: {
         path: "app",
-        "_": [ "aydin99/FLUX.2-klein-4B-int8" ],
+        "_": ["aydin99/FLUX.2-klein-4B-int8"],
         "local-dir": "FLUX.2-klein-4B-int8",
         "token": "False"
       }
